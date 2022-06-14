@@ -1,2 +1,2 @@
 # HTML_Challenge_01
-First HTML and CSS code to a file about TI terms
+The idea of this project is to help the beginning people with some terms about programming and technologies

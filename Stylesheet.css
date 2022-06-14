@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing:border-box;
+    background-color: grey;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior:auto  
+      
+}
+
+a{
+    text-decoration: none;    
+    margin:20px;
+    font-size:2em;
+    text-align: center;
+    display: inline-block;
+    color: green;  
+    border-style: double; 
+    border-color: darkolivegreen;
+}
+
+
+p{
+    font-size:1.6em;    
+    margin-top:20px;
+    margin-bottom:25px;
+    line-height:2.0em;
+    font-weight:300;
+    letter-spacing:0.05em;
+    padding-top: 5px; 
+    padding-bottom:5px;
+    padding-left:50px;
+    text-indent:4em;   
+}
+
+i{
+    font-size: 1em;
+    margin:20px;
+    color:blue;
+    padding: 25px;
+
+}
+
+.container{
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.section-title{
+    font-size:4em;
+    font-weight:600;
+    color:black;
+    margin-bottom:15px;
+    margin-top:5px;
+    text-transform:uppercase;
+    letter-spacing:0.2rem;
+    text-align:center;
+}
+
+h1{
+    font-size:4em;
+    font-weight:400;
+    padding-left: 10px;
+    color: black;
+    background-color: brown;
+    margin-top:25px;
+    margin-bottom: 25px;
+    border-style: solid;
+}
+
+h2{
+    font-size:3em;
+    font-weight:300;
+    padding-left: 10px;
+    color: black;
+    background-color: brown;
+    margin-top:25px;
+    margin-bottom: 25px;
+    border-style: solid;
+}
+
+h3{
+    font-size:3em;
+    font-weight:300;
+    padding-left: 30px;
+    color: black;
+    background-color: brown;
+    margin-top:25px;
+    margin-bottom: 25px;
+    border-style: solid;
+}
+
+h4{
+    font-size:2.5em;
+    font-weight:400;
+    padding-left: 30px;
+    color: black;
+    background-color: brown;
+    margin-top:25px;
+    margin-bottom: 25px;
+    
+
+}
+img{
+    width:150px;
+    height:150px;
+    align-items: center;
+    
+}
+
+img:hover{
+    transform: translateY(-10px);
+}
+    
+.logos{
+    width:200px;
+    height: 200px;
+    display:flex;
+    flex:25%;
+    position:relative;
+    padding:5px;
+    border-style: solid, color red, weight 10px;
+    }
+ul{
+    
+    
+    margin:20px;
+}
+
+li{
+    margin:5px;
+}
+
+nav{
+    margin:20px;    
+}
+
+.presentation-container{
+    text-align: center;
+}
+
+footer{
+    background-color: blue;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: white;
+    letter-spacing:0.2rem;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+
+
